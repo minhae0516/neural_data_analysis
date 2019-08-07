@@ -72,6 +72,25 @@ all_data_comb_df = DataFrame(all_data_comb, columns=['box1 state','box2 state','
 all_data_comb_df.to_csv(path_or_buf='./data/all_data.csv', index=False)
 
 
+
+"""
+To build a data for recoding
+"""
+bbelief = dataN_pkl['beliefs'] # behavior belief, 200x500x2, and here 2 means belief for two boxes.
+
+bb_prev = bbelief[1,:-1,:]
+bb_now = bbelief[1,1:,:]
+for i in range(2, bbelief.shape[0]): # start from 2 on purpose (since the first 500 data are useless - skip 0)
+    #print(i)
+    bb_prev = np.concatenate((bb_prev, bbelief[i,:-1,:]), axis=0)
+    bb_now = np.concatenate((bb_now, bbelief[i,1:,:]), axis=0)
+
+bb_prev_df = DataFrame(bb_prev, columns=['behavior_belief1', 'behavior_belief2'])
+bb_now_df = DataFrame(bb_now, columns=['behavior_belief1', 'behavior_belief2'])
+bb_prev_df.to_csv(path_or_buf='./data/recoding_bb_prev_df.csv', index=False)
+bb_now_df.to_csv(path_or_buf='./data/recoding_bb_now_df.csv', index=False)
+
+
 print('data preprocessing is successfully done!')
 
 
