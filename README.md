@@ -5,6 +5,12 @@ All data files are located in `data` folder.
 
 There are four codes to perform neural data analysis
 - `data_preprocessing.py`: this code transform pkl file to Pandas DataFrame csv file. 
+
+
+In the following codes, I split the data set into `train_data`, `validation_data`, `test_data`. 
+`test_data` is never touched during the training. I use `K-fold cross validation` in order to avoid overfitting. 
+During K-fold validation, `train_data` and `validation_data` is determined and used.
+
 - `encoding_v3.ipynb`: Estimate belief from neural signal
     - input: r_df.csv (neural signal from 300 neurons)  
     - output: nb_df.csv (estimated neural belief)
