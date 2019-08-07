@@ -8,7 +8,7 @@ There are four codes to perform neural data analysis
 
 
 In the following codes, I split the data set into `train_data`, `validation_data`, `test_data`. 
-`test_data` is never touched during the training. I use `K-fold cross validation` in order to avoid overfitting. 
+`test_data` is never touched during the training. I use [Stratified K-fold cross validation](https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f) in order to avoid overfitting. 
 During K-fold validation, `train_data` and `validation_data` is determined and used.
 
 - `encoding_v3.ipynb`: Estimate belief from neural signal
