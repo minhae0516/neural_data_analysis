@@ -1,6 +1,6 @@
 import pickle
 from pandas import DataFrame
-#import numpy as np
+import numpy as np
 
 
 dataN_pkl_file = open('./data/w_neuralactivity_07262019(1441)_data07172019(1604)_agent08062019(2209)_twoboxCol.pkl', 'rb')
@@ -56,6 +56,21 @@ df = DataFrame(data, columns=column_names)
 df.to_csv(path_or_buf='./data/pandas_data.csv',index=False)
 
 """
+
+trueStates = dataN_pkl['trueStates'] # true state (food in each box)
+state = trueStates.reshape(-1,2)
+"""
+data_comb = np.concatenate((state[500:], bb[500:], a[500:]), axis=1)
+data_comb_df = DataFrame(data_comb, columns=['box1 state', 'box2 state', 'box1 belief', 'box2 belief', 'action'])
+data_comb_df.to_csv(path_or_buf='./data/combined_data.csv', index=False)
+"""
+
+observations = dataN_pkl['observations']
+obs = observations.reshape(-1,5)
+all_data_comb = np.concatenate((state[500:], bb[500:], obs[500:]), axis=1)
+all_data_comb_df = DataFrame(all_data_comb, columns=['box1 state','box2 state','box1 belief', 'box2 belief','action', 'reward', 'location', 'box1 color', 'box2 color'])
+all_data_comb_df.to_csv(path_or_buf='./data/all_data.csv', index=False)
+
 
 print('data preprocessing is successfully done!')
 
