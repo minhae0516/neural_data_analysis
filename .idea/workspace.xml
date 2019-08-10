@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4aef6323-0818-45f5-9577-507f5836c575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/decoding_nomalized.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/decoding_nomalized.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +14,10 @@
     <session id="-801236658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="513" />
-          <entry key="md" value="2137" />
+          <entry key="md" value="2479" />
           <entry key="py" value="2341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2137" />
+          <entry key="Markdown" value="2479" />
           <entry key="Python" value="2854" />
         </counts>
       </usages-collector>
@@ -57,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="795">
-                <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <first_editor relative-caret-position="705">
+                <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -276,8 +274,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="795">
-            <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <first_editor relative-caret-position="705">
+            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           </first_editor>
           <second_editor />
         </state>

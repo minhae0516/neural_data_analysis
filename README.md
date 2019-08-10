@@ -45,6 +45,9 @@ During K-fold validation, `train_data` and `validation_data` are determined and 
         - `decoding_manualRBF.ipynb`: RBF is manually coded by me. So we can customize center locations for nonlinear transform. 
         multinomial logistic regression is used the same as `decoding_woRBF.ipynb`. <br />
     - `decoding_manualRBF.ipynb` performs the best, but not good enough (I guess..)
+    - I suspect that the reason why the logistic regression in decoding doesn't work well is imbalanced data. 
+    If you see our actions, dominant of actions is ZERO. This causes the regression model prefer to choose ZERO rather than other actions.
+    Please see this reference [Link](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) 
 
 Additional code: `belief-action-relationship.ipynb`: you can play around with your data to test whether it is reasonable or trash.
 
