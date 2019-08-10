@@ -51,4 +51,4 @@ Additional code: `belief-action-relationship.ipynb`: you can play around with yo
 The results so far I have gotten: 08/09/2019
 ![alt text][img]
 
-[img]: https://github.com/minhae0516/neural_data_analysis/tree/master/figures/encoding_box1.eps  "Encoding: BOX1"
+[img]: https://github.com/minhae0516/neural_data_analysis/tree/master/figures/encoding_box1.jpg  "Encoding: BOX1"
