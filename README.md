@@ -49,6 +49,10 @@ During K-fold validation, `train_data` and `validation_data` are determined and 
 Additional code: `belief-action-relationship.ipynb`: you can play around with your data to test whether it is reasonable or trash.
 
 The results so far I have gotten: 08/09/2019
-![alt text][img]
 
-[img]: https://github.com/minhae0516/neural_data_analysis/tree/master/figures/encoding_box1.jpg  "Encoding: BOX1"
+
+![Encoding: BOX1](./figures/encoding_box1.jpg) 
+![Encoding: BOX2](./figures/encoding_box2.jpg) 
+![Recoding: BOX1](./figures/recoding_box1.jpg) 
+![Recoding: BOX2](./figures/recoding_box2.jpg) 
+![Decoding](./figures/decoding_normalized.jpg) 
