@@ -26,7 +26,8 @@ During K-fold validation, `train_data` and `validation_data` are determined and 
     - there are two versions in codes:
         -`recoding_wo_RBF.ipynb`: no RBF is used. 
         - `recoding_KRR.ipynb`: RBF is used using sklearn built-in function: [Kernel Ridge Regression (kernel ='rbf')](https://scikit-learn.org/stable/modules/generated/sklearn.kernel_ridge.KernelRidge.html). 
-        (Warning: this code runs pretty slow compared to others. So if you need to handle big data size, plan in advance!)
+        (Warning: this code runs pretty slow compared to others. So if you need to handle big data size, plan in advance! 
+        or decrease # of folds (K) in K-fold validation)
         - `recoding_manualRBF.ipynb`: RBF is manually coded by me. So we can customize center locations for nonlinear transform. 
         Everything is the same as `recoding_wo_RBF.ipynb` but RBF.
         - `recoding_KRR.ipynb` works the best, and pretty good!
