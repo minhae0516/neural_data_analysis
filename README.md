@@ -45,7 +45,7 @@ During K-fold validation, `train_data` and `validation_data` are determined and 
         This is linear regression not logistic regression Since sklearn does have multinomial logistic regression with kernel. 
         - `decoding_manualRBF.ipynb`: RBF is manually coded by me. So we can customize center locations for nonlinear transform. 
         multinomial logistic regression is used the same as `decoding_woRBF.ipynb`. <br />
-    - `decoding_manualRBF.ipynb` performs the best, but not good enough (I guess..)
+    - `decoding_KRR.ipynb` performs the best, but not good enough (I guess..)
     - I suspect that the reason why the logistic regression in decoding doesn't work well is imbalanced data. 
     If you see our actions, dominant of actions is ZERO. This causes the regression model prefer to choose ZERO rather than other actions.
     Please see this reference [Link](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/) 
@@ -57,6 +57,7 @@ The results so far I have gotten: 08/09/2019
 
 ![Encoding: BOX1](./figures/encoding_box1.jpg) 
 ![Encoding: BOX2](./figures/encoding_box2.jpg) 
-![Recoding: BOX1](./figures/recoding_box1.jpg) 
-![Recoding: BOX2](./figures/recoding_box2.jpg) 
-![Decoding](./figures/decoding_normalized.jpg) 
+![Recoding: BOX1](./figures/recoding_KRR_box1.jpg) 
+![Recoding: BOX2](./figures/recoding_KRR_box2.jpg) 
+![Decoding](./figures/decoding_KRR.jpg) 
+
