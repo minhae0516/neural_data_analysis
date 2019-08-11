@@ -52,7 +52,7 @@ During K-fold validation, `train_data` and `validation_data` are determined and 
 
 Additional code: `belief-action-relationship.ipynb`: you can play around with your data to test whether it is reasonable or trash.
 
-The results so far I have gotten: 08/09/2019
+The results so far I have gotten: 08/11/2019
 
 
 ![Encoding: BOX1](./figures/encoding_box1.jpg) 
