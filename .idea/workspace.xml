@@ -3,11 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="4aef6323-0818-45f5-9577-507f5836c575" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_KRR-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_KRR-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_manualRBF-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_manualRBF-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_KRR-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_KRR-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_manualRBF-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_manualRBF-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decoding_KRR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decoding_KRR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/decoding_manualRBF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decoding_manualRBF.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/decoding_KRR.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/decoding_KRR.eps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/figures/recoding_KRR_box1.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/recoding_KRR_box1.eps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/figures/recoding_KRR_box2.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/recoding_KRR_box2.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/figures/recoding_manualRBF_box1.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/recoding_manualRBF_box1.eps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recoding_KRR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recoding_KRR.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recoding_manualRBF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recoding_manualRBF.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,36 +26,37 @@
     <session id="-801236658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="4" />
-          <entry key="md" value="2" />
+          <entry key="md" value="3" />
           <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="4" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="513" />
-          <entry key="md" value="2553" />
+          <entry key="md" value="2577" />
           <entry key="py" value="2341" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2553" />
+          <entry key="Markdown" value="2577" />
           <entry key="Python" value="2854" />
         </counts>
       </usages-collector>
@@ -60,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="159">
-                <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <first_editor relative-caret-position="669">
+                <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
               </first_editor>
               <second_editor />
             </state>
@@ -169,7 +177,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1644" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1644" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21318546" />
@@ -275,18 +283,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recoding_manualRBF_v2.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/recoding_manualRBF_v2.ipynb" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="159">
-            <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <first_editor relative-caret-position="669">
+            <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           </first_editor>
           <second_editor />
         </state>

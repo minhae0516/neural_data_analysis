@@ -59,5 +59,7 @@ The results so far I have gotten: 08/11/2019
 ![Encoding: BOX2](./figures/encoding_box2.jpg) 
 ![Recoding: BOX1](./figures/recoding_KRR_box1.jpg) 
 ![Recoding: BOX2](./figures/recoding_KRR_box2.jpg) 
+![Recoding_DELTA_BOX1](./figures/recoding_DELTA_KRR_box1.jpg)
+![Recoding_DELTA_BOX2](./figures/recoding_DELTA_KRR_box2.jpg)
 ![Decoding](./figures/decoding_KRR.jpg) 
 
