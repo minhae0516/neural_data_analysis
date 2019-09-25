@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aef6323-0818-45f5-9577-507f5836c575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_KRR-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_KRR-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_manualRBF-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/decoding_manualRBF-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_KRR-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_KRR-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_manualRBF-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/recoding_manualRBF-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/decoding_KRR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decoding_KRR.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decoding_manualRBF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/decoding_manualRBF.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/decoding_KRR.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/decoding_KRR.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/recoding_KRR_box1.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/recoding_KRR_box1.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/recoding_KRR_box2.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/recoding_KRR_box2.eps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/figures/recoding_manualRBF_box1.eps" beforeDir="false" afterPath="$PROJECT_DIR$/figures/recoding_manualRBF_box1.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recoding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recoding.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recoding_KRR.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recoding_KRR.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recoding_manualRBF.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/recoding_manualRBF.ipynb" afterDir="false" />
     </list>
@@ -61,17 +52,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2046519694">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ipynb" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recoding.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decoding_KRR.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="669">
-                <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/decoding_manualRBF.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recoding_KRR.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recoding_manualRBF.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="9" />
             </state>
           </provider>
         </entry>
@@ -86,6 +129,10 @@
       <list>
         <option value="$PROJECT_DIR$/data_preprocessing.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/recoding_KRR.ipynb" />
+        <option value="$PROJECT_DIR$/recoding.ipynb" />
+        <option value="$PROJECT_DIR$/recoding_manualRBF.ipynb" />
+        <option value="$PROJECT_DIR$/decoding_KRR.ipynb" />
       </list>
     </option>
   </component>
@@ -99,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,13 +313,6 @@
     <entry file="file://$PROJECT_DIR$/decoding_v3.ipynb" />
     <entry file="file://$PROJECT_DIR$/encoding_v3.ipynb" />
     <entry file="file://$PROJECT_DIR$/decoding_v2.ipynb" />
-    <entry file="file://$PROJECT_DIR$/decoding_KRR.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -288,9 +328,51 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="669">
-            <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+            <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recoding_manualRBF.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recoding_KRR.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recoding.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoding_KRR.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoding_woRBF.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decoding_manualRBF.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
